@@ -1,0 +1,178 @@
+.experience {
+  padding: 2rem 1.5rem;
+}
+
+@media(min-width: 64rem) {
+  .experience {
+    display: flex;
+    padding: 2rem 0;
+  }
+}
+
+@media(min-width: 64rem) {
+  .experience__left {
+    width: 50%;
+  }
+}
+
+@media(min-width: 64rem) {
+  .experience__right {
+    width: 50%;
+    position: relative;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    max-width: 48.75rem;
+  }
+}
+
+.experience__img {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 48rem) {
+  .experience__img {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .experience__img {
+    height: 30rem;
+  }
+}
+
+.experience__title {
+  position: relative;
+}
+
+.title__title {
+  width: 100%;
+  max-width: 10rem;
+}
+
+@media (min-width: 64rem) {
+  .title__title {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .title__title {
+    max-width: 18.5rem;
+  }
+}
+
+.title__twitter {
+  width: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 10.5rem;
+}
+
+@media (min-width: 64rem) {
+  .title__twitter {
+    left: 16rem;
+    width: 2rem;
+    top: 0;
+  }
+}
+
+@media (min-width: 80rem) {
+  .title__twitter {
+    left: 21rem;
+    width: 3.5rem;
+    top: 0;
+  }
+}
+
+h3.experience__subtitle {
+  line-height: 1.4rem;
+  padding: 2rem 0;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+@media (min-width: 64rem) {
+  .experience__subtitle {
+    font-size: 2.2rem;
+  }
+}
+
+.experience__link {
+  font-weight: 600;
+  color: #000;
+}
+
+.grey__link {
+  background-image: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(233,233,233,1) 100%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 50%;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.grey__link:hover {
+  background-size: 100% 50%;
+}
+
+.external-link__icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: top;
+}
+
+@media (min-width: 48rem) {
+  .experience__reference {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .experience__reference {
+    padding-top: 4rem;
+  }
+}
+
+.experience__author {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 64rem) {
+  .experience__author {
+    padding-right: 3rem;
+    padding-top: 4rem;
+  }
+}
+
+.circle-container {
+  width: 6rem;
+  margin: 4rem auto 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width:80rem) {
+  .circle-container {
+    position: absolute;
+    right: 20%;
+    top: 16%;
+  }
+}
+
+.experience__circle {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+}
+
+.experience__circle--black {
+  background-color: #000;
+}
